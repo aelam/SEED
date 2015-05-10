@@ -14,7 +14,7 @@
 #import "RWCollectionModelViewCell.h"
 #import "RWCollectionViewCellObject.h"
 
-#import "NIMutableTableViewModel+Helper.m"
+#import "NIMutableTableViewModel+Helper.h"
 #import "RWTableModelViewController.h"
 #import "RWTableModelCell.h"
 #import "RWCellObject.h"
