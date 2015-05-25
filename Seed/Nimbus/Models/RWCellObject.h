@@ -7,8 +7,9 @@
 //
 
 #import "NICellFactory.h"
+#import "EOSerializer.h"
 
-@interface RWCellObject : NICellObject
+@interface RWCellObject : NICellObject<EOSerializer>
 
 
 @end
