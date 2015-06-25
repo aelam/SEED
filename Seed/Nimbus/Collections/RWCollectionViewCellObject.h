@@ -8,7 +8,8 @@
 
 #import "NICollectionViewCellFactory.h"
 #import "NICollectionViewModel.h"
+#import "EOSerializer.h"
 
-@interface RWCollectionViewCellObject : NICollectionViewCellObject<NICollectionViewCellObject,NICollectionViewNibCellObject>
+@interface RWCollectionViewCellObject : NICollectionViewCellObject<NICollectionViewCellObject,NICollectionViewNibCellObject, EOSerializer>
 
 @end

@@ -20,6 +20,10 @@
     return serializableObject;
 }
 
+- (instancetype)initWithData:(NSDictionary *)info options:(NSUInteger)options {
+    [self serialize:info options:options];
+    return self;
+}
 
 - (instancetype)serialize:(NSDictionary *)info options:(NSUInteger)options {
     return self;

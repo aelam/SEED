@@ -39,4 +39,12 @@
     self.collectionView.delegate = self;
 }
 
+- (void)dealloc {
+    self.collectionView.delegate = nil;
+    self.collectionView.dataSource = nil;
+    self.collectionView = nil;
+    self.collectionModel.delegate = nil;
+    self.collectionModel = nil;
+}
+
 @end

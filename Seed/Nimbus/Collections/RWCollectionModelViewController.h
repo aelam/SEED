@@ -12,7 +12,7 @@
 @interface RWCollectionModelViewController : RWViewController <UICollectionViewDelegate,NICollectionViewModelDelegate>
 
 @property (nonatomic, strong) NIMutableCollectionViewModel *collectionModel;
-@property (nonatomic, strong) IBOutlet UICollectionView *collectionView;
+@property (nonatomic, weak) IBOutlet UICollectionView *collectionView;
 
 - (void)loadModel;
 
