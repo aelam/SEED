@@ -7,6 +7,6 @@
 //
 
 
+#import "RWFoundationMacros.h"
 #import "EOSerializer.h"
 #import "RWObject.h"
-
